@@ -1,0 +1,90 @@
+            body {
+                font-family: 'Quicksand', sans-serif;
+            }
+            
+            .container {
+                margin-bottom: 20px;
+            }
+            
+            .buy-now-button {
+                background-color: black;
+                color: #FFF;
+                border: none;
+                border-radius: 8px;
+                padding: 9px 25px;
+                cursor: pointer;
+            }
+            
+            #home {
+                background-image: url(../img/background/header-bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 80vh;
+            }
+            
+            #product {
+                margin-top: 50px;
+            }
+            
+            .see_all {
+                color: darkorange;
+            }
+            
+            .see_all:hover {
+                color: black;
+            }
+            
+            .card {
+                text-align: center;
+                border: none;
+                border-radius: 20px;
+                box-shadow: 2px 2px 10px lightgray;
+            }
+            
+            .card img {
+                width: fit-content;
+                margin-top: 10px;
+            }
+            
+            .card-footer {
+                border-top: none;
+                background-color: white;
+            }
+            
+            .laptop {
+                margin-top: 80px;
+            }
+            
+            .catagory {
+                margin-top: 80px;
+            }
+            
+            .cent {
+                text-align: center;
+            }
+            
+            .cent:after {
+                display: block;
+                height: 5px;
+                background-image: linear-gradient(to left, rgb(255, 154, 71) 0%, orange 90%);
+                content: " ";
+                width: 100px;
+                margin: 0 auto;
+                margin-top: 20px;
+                border-radius: 50px;
+            }
+            
+            .order {
+                width: 100%;
+            }
+            
+            .cat {
+                width: 50px;
+                box-shadow: -1px -1px 77px -19px rgba(102, 99, 102, 0.51);
+                text-align: center;
+            }
+            
+            footer {
+                text-align: center;
+                margin-bottom: 15px;
+            }
